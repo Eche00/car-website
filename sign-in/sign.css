@@ -1,0 +1,109 @@
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: white;
+    height: 60px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color:  rgb(199, 197, 197);
+    z-index: 100;
+}
+.logo-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo{
+    padding-top: 90px;
+    height: 40px;
+
+}
+.logo-text{
+    padding-top: 40px;
+    font-family: Roboto,Arial;
+    font-size: 20px;
+    color:  rgb(145, 143, 143);
+}
+.log-in, .img-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+}
+.mail, .pass{
+    width: 300px;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  rgb(224, 222, 222);
+}
+.forgot{
+    margin-right: 200px;
+    font-size: 13px;
+    font-family: Roboto,Arial;
+    margin-top: 15px;
+    color: blue;
+    
+}
+
+.button{
+    margin-top: 20px;
+    border: none;
+    width: 310px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    opacity: 0.8;
+    z-index: 0;
+    cursor: pointer;
+}
+.dont{
+    margin-top: 15px;
+    margin-left: 130px;
+    font-size: 12.5px;
+    font-family: Roboto,Arial;
+    color: rgb(156, 154, 154);
+
+}
+.or{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.butt{
+    
+    width: 308px;
+    height: 45px;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  rgb(188, 186, 186);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.imgg{
+    height: 20px;
+
+    
+   
+}
