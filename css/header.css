@@ -193,6 +193,9 @@ opacity: 0.5;
     .header {
       font-size: 8px;
     }
+     img{
+         width: 100px;
+     }
     
   }
 
