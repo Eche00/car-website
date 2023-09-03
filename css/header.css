@@ -1,3 +1,6 @@
+
+    
+
 .header{
     height: 95px;
     display: flex;
@@ -185,4 +188,27 @@ opacity: 0.5;
     opacity: 1;
     
 }
+
+ @media (max-width: 311px) {
+    .header {
+      font-size: 8px;
+    }
+    
+  }
+
+  @media (min-width: 312px) and (max-width: 400px) {
+    .header {
+      font-size: 10px;
+    }
+   
+  }
+  
+  /* Media query for screens between 401px and 500px */
+  @media (min-width: 401px) and (max-width: 526px) {
+    .header {
+      font-size: 15px;
+    }
+    
+  }
+
 
